@@ -1,0 +1,16 @@
+package com.tanbo.srb.core.mapper;
+
+import com.tanbo.srb.core.pojo.entity.UserIntegral;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * <p>
+ * 用户积分记录表 Mapper 接口
+ * </p>
+ *
+ * @author tanbo
+ * @since 2021-10-17
+ */
+public interface UserIntegralMapper extends BaseMapper<UserIntegral> {
+
+}
