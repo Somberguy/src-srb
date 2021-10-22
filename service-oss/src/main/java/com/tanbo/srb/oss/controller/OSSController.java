@@ -43,9 +43,9 @@ public class OSSController {
     }
 
     @DeleteMapping("/remove")
-    public R removeFile(@RequestParam("ossurl") String ossUrl){
+    public R removeFile(@RequestParam("ossurl") String url){
 
-        fileService.removeFileInOSS(ossUrl);
+        fileService.removeFileInOSS(url);
 
         return R.OK().resetMessage("删除成功");
     }
